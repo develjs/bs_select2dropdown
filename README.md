@@ -1,12 +1,13 @@
 # select2dropdown
 
-Init bootstrap dropdown from select node
+Init (on ready event) bootstrap dropdown html structure from <select> node.  
 Assumed structure: 
 
       <div class="dropdown" id="mydropdown"> <select/> </div> 
 
 
-Note: id attribute is optional, used for dLabel.id, class and style attributes will be set to button.class button.style 
+Note: id attribute is optional, used for dLabel.id  
+Note: You cat use class and style attributes, it will be set to button.class and button.style 
 
 
 Result structure structure:
